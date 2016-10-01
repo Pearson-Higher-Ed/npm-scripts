@@ -8,6 +8,10 @@ const exitFailure = (message) => {
   process.exit(1);
 };
 
+if (pkg.main === './build/dist.component-name.js') {
+  exitFailure('Package main (entry point) must be changed from "component-name" to your actual component name.');
+}
+
 if (!pkg.name.startsWith('@pearson-components/')) {
   exitFailure('Package name must be pre-pended with "@pearson-components/" scope.');
 }
