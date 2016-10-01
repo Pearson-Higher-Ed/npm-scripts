@@ -1,7 +1,7 @@
 {
   "name": "@pearson-components/npm-scripts",
   "version": "0.3.0",
-  "description": "Centralized module for Origami v2 archetype npm scripts.",
+  "description": "Centralized module for Pearson Origami v2 npm scripts.",
   "scripts": {
     "gen-changelog": "node ./npm_scripts/gen-changelog.js",
     "version": "npm run gen-changelog && git add CHANGELOG.md",

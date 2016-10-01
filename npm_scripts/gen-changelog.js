@@ -16,5 +16,5 @@ const changelogStream = changelog({
 changelogStream.pipe(outStream);
 
 changelogStream.on('end', () => {
-  log.primary('Changelog saved to', FILENAME);
+  log.primary('Changelog saved to ' + FILENAME);
 });
