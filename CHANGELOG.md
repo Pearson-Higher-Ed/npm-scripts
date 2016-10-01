@@ -1,3 +1,13 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.2.0...v0.3.0) (2016-10-01)
+
+
+### Features
+
+* Check package.json main field to ensure it is changed to actual component name. ([a1fdbb2](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/a1fdbb2))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.1.0...v0.2.0) (2016-09-10)
 
