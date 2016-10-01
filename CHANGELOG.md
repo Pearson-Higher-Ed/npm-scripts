@@ -1,3 +1,13 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.0...v0.3.1) (2016-10-01)
+
+
+### Bug Fixes
+
+* Display filename of changelog. ([3f125cf](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/3f125cf))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.2.0...v0.3.0) (2016-10-01)
 
