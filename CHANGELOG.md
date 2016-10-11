@@ -1,3 +1,13 @@
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.1...v0.3.2) (2016-10-11)
+
+
+### Bug Fixes
+
+* Ignore component-specific styles for unit testing. ([162aa45](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/162aa45))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.0...v0.3.1) (2016-10-01)
 
