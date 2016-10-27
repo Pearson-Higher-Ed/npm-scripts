@@ -27,7 +27,7 @@ const exitFailure = (message) => {
 };
 
 if (branchName !== 'master') {
-  if(branchName !== 'v0') {
+  if (branchName !== 'v0') {
     exitFailure('You must be on the master branch in order to execute a release.');
   }
 }
