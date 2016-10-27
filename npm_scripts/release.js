@@ -26,10 +26,8 @@ const exitFailure = (message) => {
   process.exit(1);
 };
 
-if (branchName !== 'master') {
-  if (branchName !== 'v0') {
+if (branchName !== 'master' && branchName !== 'v0') {
     exitFailure('You must be on the master branch in order to execute a release.');
-  }
 }
 
 // Ensure unit tests pass before continuing!
