@@ -1,3 +1,14 @@
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.2...v0.3.4) (2016-11-08)
+
+
+### Features
+
+* cross-platform added for postinstall ([81e4745](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/81e4745))
+* cross-platform added for postinstall ([a195690](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/a195690))
+
+
+
 <a name="0.3.2"></a>
 ## [0.3.2](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.1...v0.3.2) (2016-10-11)
 
