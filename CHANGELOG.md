@@ -1,3 +1,8 @@
+<a name="0.3.6"></a>
+## [0.3.6](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.5...v0.3.6) (2016-11-15)
+
+
+
 <a name="0.3.5"></a>
 ## [0.3.5](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.5) (2016-11-15)
 
