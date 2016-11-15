@@ -1,3 +1,13 @@
+<a name="0.3.5"></a>
+## [0.3.5](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.5) (2016-11-15)
+
+
+### Bug Fixes
+
+* update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
+
+
+
 <a name="0.3.4"></a>
 ## [0.3.4](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.2...v0.3.4) (2016-11-08)
 
