@@ -10,9 +10,8 @@ try {
   console.error(err)
 }
 
-try {
-  fs.copy(path.join(__dirname, '..', 'node_modules/pearson-elements/dist/css/elements.css'), path.join(__dirname, '..', 'demo'));
-} catch (err) {
-  console.error(err)
-}
-
+fs.copy(path.join(__dirname, '..', 'node_modules/pearson-elements/dist/css/elements.css'), path.join(__dirname, '..', 'demo/elements.css'), function (err) {
+  if (err) {
+    return console.error(err);
+  }
+});
