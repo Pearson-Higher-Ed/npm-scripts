@@ -1,15 +1,11 @@
-<a name="0.3.6"></a>
-## [0.3.6](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.5...v0.3.6) (2016-11-15)
-
-
-
-<a name="0.3.5"></a>
-## [0.3.5](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.5) (2016-11-15)
+<a name="0.3.7"></a>
+## [0.3.7](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.7) (2016-11-21)
 
 
 ### Bug Fixes
 
 * update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
+* Webpack fix to allow mobile access ([f8c8990](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f8c8990))
 
 
 
