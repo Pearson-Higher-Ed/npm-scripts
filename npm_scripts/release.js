@@ -26,12 +26,14 @@ const exitFailure = (message) => {
   process.exit(1);
 };
 
-if (branchName !== 'master') {
-  exitFailure('You must be on the master branch in order to execute a release.');
-}
+//if (branchName !== 'master') {
+  //exitFailure('You must be on the master branch in order to execute a release.');
+//}
 
-// Ensure scripts have been copied
-exec(`npm run copy-utils`);
+// Ensure scripts have been copied, if being executed by another component
+if (`${pkg.name}` !== '@pearson-components/npm-scripts') {
+  exec(`npm run copy-utils`);
+}
 
 // Ensure unit tests pass before continuing!
 exec('npm test');
