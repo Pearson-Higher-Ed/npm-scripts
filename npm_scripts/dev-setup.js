@@ -2,7 +2,7 @@ const path = require('path');
 const exec = require('./exec');
 const fs = require('fs-extra');
 
-exec(`mkdir -p fonts`);
+exec(`npm run copy-utils`);
 
 try {
   fs.copySync(path.join(__dirname, '..', 'node_modules/pearson-elements/dist/fonts'), path.join(__dirname, '..', 'fonts'));
