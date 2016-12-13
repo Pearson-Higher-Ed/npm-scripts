@@ -1,11 +1,28 @@
-<a name="0.3.7"></a>
-## [0.3.7](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.7) (2016-11-21)
+<a name="0.3.8"></a>
+## [0.3.8](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.6...v0.3.8) (2016-12-13)
+
+
+### Bug Fixes
+
+* add copy-utils command to relevant scripts just in case the developer forgets ([d78709e](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d78709e))
+* conditionally run the copy if the release script is being run by another component. ([5b9bf90](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/5b9bf90))
+* remove dev-setup mkdir command as it is unnecessary and breaks on Windows ([e14364b](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e14364b))
+* Webpack fix to allow mobile access ([f8c8990](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f8c8990))
+
+
+
+<a name="0.3.6"></a>
+## [0.3.6](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.5...v0.3.6) (2016-11-15)
+
+
+
+<a name="0.3.5"></a>
+## [0.3.5](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.5) (2016-11-15)
 
 
 ### Bug Fixes
 
 * update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
-* Webpack fix to allow mobile access ([f8c8990](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f8c8990))
 
 
 
