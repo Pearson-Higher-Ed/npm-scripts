@@ -1,3 +1,13 @@
+<a name="0.3.11"></a>
+## [0.3.11](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.10...v0.3.11) (2016-12-14)
+
+
+### Bug Fixes
+
+* move copy command in ci.js ([d7dc68a](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d7dc68a))
+
+
+
 <a name="0.3.10"></a>
 ## [0.3.10](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.9...v0.3.10) (2016-12-14)
 
