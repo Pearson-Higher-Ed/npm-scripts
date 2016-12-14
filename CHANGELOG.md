@@ -1,3 +1,14 @@
+<a name="0.3.10"></a>
+## [0.3.10](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.9...v0.3.10) (2016-12-14)
+
+
+### Bug Fixes
+
+* restore master branch check on release script ([ae1c472](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/ae1c472))
+* update npm token ([e034dd6](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e034dd6))
+
+
+
 <a name="0.3.9"></a>
 ## [0.3.9](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.8...v0.3.9) (2016-12-14)
 
