@@ -2,6 +2,9 @@ const fs   = require('fs');
 const os   = require('os');
 const exec = require('./exec');
 
+// Build it...
+exec('npm run build');
+
 // Run tests...
 exec('npm run test');
 
