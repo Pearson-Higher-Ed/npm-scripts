@@ -3,3 +3,5 @@
 npm-debug.log
 *.iml
 node_modules
+*.swp
+yarn.lock
