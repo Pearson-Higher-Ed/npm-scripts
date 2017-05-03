@@ -1,17 +1,90 @@
+<a name="0.4.1"></a>
+## [0.4.1](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.4.0...v0.4.1) (2017-05-03)
+
+
+### Bug Fixes
+
+* add *.swp to .gitIgnore ([b982b51](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/b982b51))
+* rm the bin ([737936c](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/737936c))
+
+
+### Features
+
+* add script to deploy to gh-pages ([1f6b926](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/1f6b926))
+* add script to deploy to gh-pages ([7cdb9f4](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/7cdb9f4))
+
+
+
 <a name="0.3.12"></a>
-## [0.3.12](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.2...v0.3.12) (2017-01-24)
+## [0.3.12](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.11...v0.3.12) (2017-01-24)
+
+
+
+<a name="0.3.11"></a>
+## [0.3.11](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.10...v0.3.11) (2016-12-14)
+
+
+### Bug Fixes
+
+* move copy command in ci.js ([d7dc68a](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d7dc68a))
+
+
+
+<a name="0.3.10"></a>
+## [0.3.10](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.9...v0.3.10) (2016-12-14)
+
+
+### Bug Fixes
+
+* restore master branch check on release script ([ae1c472](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/ae1c472))
+* update npm token ([e034dd6](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e034dd6))
+
+
+
+<a name="0.3.9"></a>
+## [0.3.9](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.8...v0.3.9) (2016-12-14)
+
+
+
+<a name="0.3.8"></a>
+## [0.3.8](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.7...v0.3.8) (2016-12-13)
 
 
 ### Bug Fixes
 
 * add copy-utils command to relevant scripts just in case the developer forgets ([d78709e](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d78709e))
 * conditionally run the copy if the release script is being run by another component. ([5b9bf90](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/5b9bf90))
-* move copy command in ci.js ([d7dc68a](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d7dc68a))
 * remove dev-setup mkdir command as it is unnecessary and breaks on Windows ([e14364b](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e14364b))
-* restore master branch check on release script ([ae1c472](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/ae1c472))
-* update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
-* update npm token ([e034dd6](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e034dd6))
+
+
+
+<a name="0.3.7"></a>
+## [0.3.7](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.6...v0.3.7) (2016-11-21)
+
+
+### Bug Fixes
+
 * Webpack fix to allow mobile access ([f8c8990](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f8c8990))
+
+
+
+<a name="0.3.6"></a>
+## [0.3.6](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.5...v0.3.6) (2016-11-15)
+
+
+
+<a name="0.3.5"></a>
+## [0.3.5](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.4...v0.3.5) (2016-11-15)
+
+
+### Bug Fixes
+
+* update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
+
+
+
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.2...v0.3.4) (2016-11-08)
 
 
 ### Features
