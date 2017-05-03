@@ -1,3 +1,26 @@
+<a name="0.3.12"></a>
+## [0.3.12](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.2...v0.3.12) (2017-01-24)
+
+
+### Bug Fixes
+
+* add copy-utils command to relevant scripts just in case the developer forgets ([d78709e](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d78709e))
+* conditionally run the copy if the release script is being run by another component. ([5b9bf90](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/5b9bf90))
+* move copy command in ci.js ([d7dc68a](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d7dc68a))
+* remove dev-setup mkdir command as it is unnecessary and breaks on Windows ([e14364b](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e14364b))
+* restore master branch check on release script ([ae1c472](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/ae1c472))
+* update dev-setup to work cross platform ([397d3ac](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/397d3ac))
+* update npm token ([e034dd6](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e034dd6))
+* Webpack fix to allow mobile access ([f8c8990](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f8c8990))
+
+
+### Features
+
+* cross-platform added for postinstall ([81e4745](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/81e4745))
+* cross-platform added for postinstall ([a195690](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/a195690))
+
+
+
 <a name="0.3.2"></a>
 ## [0.3.2](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.3.1...v0.3.2) (2016-10-11)
 
