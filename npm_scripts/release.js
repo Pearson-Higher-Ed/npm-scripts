@@ -5,9 +5,10 @@ const exec = require('./exec');
 const path = require('path');
 const readline = require('readline');
 const semver = require('semver');
-const pkg = require('../package.json');
+const parentPkg = require('../../../../package.json');
+const copiedPkg = require('../package.json');
 const branchName = exec('git rev-parse --abbrev-ref HEAD', true);
-const currentVersion = pkg.version;
+const currentVersion = (parentPkg) ? parentPkg.version : copiedPkg.version;
 const stdin = readline.createInterface({
   input: process.stdin,
   output: process.stdout
