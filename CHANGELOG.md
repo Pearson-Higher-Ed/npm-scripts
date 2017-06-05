@@ -1,3 +1,13 @@
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.4.1...v0.5.0) (2017-06-05)
+
+
+### Bug Fixes
+
+* release script detects parent package.json ([d64fa30](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/d64fa30))
+
+
+
 <a name="0.4.1"></a>
 ## [0.4.1](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.4.0...v0.4.1) (2017-05-03)
 
