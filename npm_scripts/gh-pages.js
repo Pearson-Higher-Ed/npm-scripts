@@ -42,8 +42,8 @@ try {
  }
 
  // update .gitignore and push...
- const file      = fs.readFileSync(`${path}/.gitignore`, 'utf8');
- let updatedFile = file.replace('/build', '#/build');
+ const file        = fs.readFileSync(`${path}/.gitignore`, 'utf8');
+ const updatedFile = file.replace('/build', '#/build');
  fs.writeFileSync(`${path}/.gitignore`, updatedFile, 'utf8');
 
  exec('git add build');
