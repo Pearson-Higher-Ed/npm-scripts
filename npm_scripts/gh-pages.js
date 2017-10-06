@@ -48,7 +48,15 @@ try {
 
  exec('git add build');
  exec('git commit -am "chore: gh-pages comment out build"');
- exec('git subtree push -f --prefix build origin gh-pages');
+
+// Try to kill existing gh-pages branch and avoid conflicts...
+try {
+  exec('git push origin :gh-pages');
+}catch(err ){
+  console.log('gh-pages doesn't exist.... pushing);
+}
+
+ exec('git subtree push --prefix build origin gh-pages');
 
 } catch (err) {
    console.log("error commiting to gh-pages... skipping");
