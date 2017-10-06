@@ -48,7 +48,7 @@ try {
 
  exec('git add build');
  exec('git commit -am "chore: gh-pages comment out build"');
- exec('git subtree push --prefix build origin gh-pages');
+ exec('git subtree push -f --prefix build origin gh-pages');
 
 } catch (err) {
    console.log("error commiting to gh-pages... skipping");
