@@ -53,7 +53,7 @@ try {
 try {
   exec('git push origin :gh-pages');
 }catch(err ){
-  console.log('gh-pages doesn't exist.... pushing);
+  console.log("gh-pages doesn't exist.... pushing");
 }
 
  exec('git subtree push --prefix build origin gh-pages');
