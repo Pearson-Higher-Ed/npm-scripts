@@ -3,6 +3,9 @@ sudo: false
 node_js:
 - 4
 - 6
+script:
+- chmod 777 ./shell_scripts/run_selenium_ci_tests.sh
+- "./shell_scripts/run_selenium_ci_tests.sh"
 deploy:
   provider: npm
   email: pearson-design-accelerator@pearson.com
