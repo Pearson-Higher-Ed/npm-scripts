@@ -5,8 +5,9 @@ echo "Trigger the Selenium tests for rebrand branch: ux-test-platform repo...."
 REPO_FULL_NAME=$TRAVIS_REPO_SLUG
 REPO_NAME=${REPO_FULL_NAME##*/}
 SUITE_NAME="${REPO_NAME//-/_}"
+
 echo "Component: "$REPO_NAME
-echo "Groups": "CI"
+echo "Test Group: "$TEST_GROUP
 echo "Selenium Test Suite to run: "$SUITE_NAME.xml
 
 #Step 1: API to trigger the ux-test-platform build with the below config
@@ -20,7 +21,7 @@ body="{
 \"export feature_branch=$TRAVIS_BRANCH\",
 \"chmod 777 ./src/main/shell_scripts/components.sh\",
 \"./src/main/shell_scripts/components.sh\",
-\"mvn -Dtest_suite_xml=$SUITE_NAME.xml -Dgroups=desktop-ci test\"
+\"mvn -Dtest_suite_xml=$SUITE_NAME.xml -Dgroups=$TEST_GROUP test\"
 ]
 }
 }}"
