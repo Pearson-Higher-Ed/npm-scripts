@@ -13,7 +13,7 @@ echo "Selenium Test Suite to run: "$SUITE_NAME.xml
 #Step 1: API to trigger the ux-test-platform build with the below config
 body="{
 \"request\": {
-\"message\": \"feat($REPO_NAME): Run CI tests for $TRAVIS_BRANCH\",
+\"message\": \"feat($REPO_NAME): Run $TEST_GROUP tests for $TRAVIS_BRANCH\",
 \"branch\":\"rebrand\",
 \"config\": {
 \"script\": [
