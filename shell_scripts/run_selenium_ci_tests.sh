@@ -73,7 +73,7 @@ REPO_URI_WITH_BUILDID="$REPO_URI/$BUILD_ID"
 echo $REPO_URI_WITH_BUILDID
 
 i=1
-max=900 #Max time for the tests to run.
+max=1800 #Max time for the tests to run.
 while [ $i -lt $max ]
 do
 
@@ -106,7 +106,7 @@ elif [[ $STATE == "finished" && $STATUS == "n" ]] #Unexpected failure due to Tra
 then
  echo "TESTS RUN... NULL :-("
  exit 1 #For some reason, if the ux-test-platform build breaks or halts
-elif [ $i == "900" ] #Maxed out condition
+elif [ $i == "1800" ] #Maxed out condition
   then
   echo "ux-test-platform run time has maxed out..."
   exit 1 #Selenium tests run for more than the max time.
