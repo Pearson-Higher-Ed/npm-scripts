@@ -46,6 +46,7 @@ try {
  const updatedFile = file.replace('/build', '#/build');
  fs.writeFileSync(`${path}/.gitignore`, updatedFile, 'utf8');
 
+ exec('git push origin --delete gh-pages');
  exec('git add build');
  exec('git commit -am "chore: gh-pages comment out build"');
  exec('git subtree push --prefix build origin gh-pages');
