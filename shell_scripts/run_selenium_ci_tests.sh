@@ -9,10 +9,6 @@ REPO_NAME=${REPO_FULL_NAME##*/}
 SUITE_NAME="${REPO_NAME//-/_}"
 fi
 
-REPO_FULL_NAME=$TRAVIS_REPO_SLUG
-REPO_NAME=${REPO_FULL_NAME##*/}
-SUITE_NAME="${REPO_NAME//-/_}"
-
 echo "Component: "$REPO_NAME
 echo "Test Group: "$TEST_GROUP
 echo "Selenium Test Suite to run: "$SUITE_NAME.xml
