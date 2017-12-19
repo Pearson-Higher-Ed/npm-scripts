@@ -2,6 +2,13 @@
 
 echo "Trigger the Selenium tests for rebrand branch: ux-test-platform repo...."
 
+if [[ ! $SUITE_NAME =~ "glp" ]]
+then
+REPO_FULL_NAME=$TRAVIS_REPO_SLUG
+REPO_NAME=${REPO_FULL_NAME##*/}
+SUITE_NAME="${REPO_NAME//-/_}"
+fi
+
 REPO_FULL_NAME=$TRAVIS_REPO_SLUG
 REPO_NAME=${REPO_FULL_NAME##*/}
 SUITE_NAME="${REPO_NAME//-/_}"
