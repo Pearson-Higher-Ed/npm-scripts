@@ -1,3 +1,28 @@
+<a name="0.5.9"></a>
+## [0.5.9](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/0.5.1...0.5.9) (2018-05-10)
+
+
+### Bug Fixes
+
+* put gh-pages delete in a try/catch so that when the delete fails the push still happens ([6ef986d](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/6ef986d))
+
+
+### Features
+
+* delete gh-pages branch before pushing updates ([f5dfed4](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/f5dfed4))
+
+
+
+<a name="0.5.1"></a>
+## [0.5.1](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.5.0...0.5.1) (2017-06-06)
+
+
+### Bug Fixes
+
+* adding use strict ([2e22a75](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/2e22a75))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/Pearson-Higher-Ed/npm-scripts/compare/v0.4.1...v0.5.0) (2017-06-05)
 
@@ -154,7 +179,7 @@
 * Add Intl.js polyfill for Safari and update READMEs on polyfill service. ([54cb581](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/54cb581))
 * Enable source maps for webpack dev server. ([e13cd6b](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/e13cd6b))
 * Reference release script in npm_scripts, and lint demo script. ([896ea18](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/896ea18))
-* Use verify npm script to ensure package name has [@pearson](https://github.com/pearson)-components scope. ([772586f](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/772586f))
+* Use verify npm script to ensure package name has [@pearson-components](https://github.com/pearson-components) scope. ([772586f](https://github.com/Pearson-Higher-Ed/npm-scripts/commit/772586f))
 
 
 ### Features
